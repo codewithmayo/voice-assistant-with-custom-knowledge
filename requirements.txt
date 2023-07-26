@@ -1,0 +1,12 @@
+openai
+numpy
+hugchat
+scipy
+streamlit
+streamlit-extras
+scikit-learn
+pygame
+speechrecognition
+numpy
+plotly
+PyPDF2
