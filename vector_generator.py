@@ -11,7 +11,7 @@ from functools import partial
 import PyPDF2
 import concurrent.futures
 
-openai.api_key = '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'
+openai.api_key = 'Your_open_ai_key'
 
 def process_chunk(chunk_text):
     embd = get_embedding(chunk_text,engine='text-embedding-ada-002')
