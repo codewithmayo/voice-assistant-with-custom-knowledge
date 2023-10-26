@@ -11,7 +11,6 @@ import openai
 
 
 # Generate empty lists for generated and past.
-## generated stores AI generated responses
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
 ## past stores User's questions
